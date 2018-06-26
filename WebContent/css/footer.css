@@ -1,0 +1,9 @@
+@charset "EUC-KR";
+	footer{
+		width:100%;
+		padding-left:15%;
+		padding-right:15%;
+		padding-top:1%;
+		border:solid 1px #000000;
+		clear:both;
+	}

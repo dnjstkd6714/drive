@@ -1,0 +1,83 @@
+	header ul{											
+		list-style-type:none;							/*헤더 박스내 list type 초기화*/
+	}
+	header{
+		witdh:100%;										/*헤더 박스의 너비 해상도 100%설정*/
+		height:auto;									/*헤더 박스의 높이 auto설정*/
+		border-top:solid 2px #ff0000;					/* 경계선 상단 실선, 2px, 색상 빨강 */
+		border-bottom:solid 2px #ff0000;				/* 경계선 상단 실선, 2px, 색상 빨강 */
+		padding-top:1%;									/* 헤더박스의 경계선 내 상단, 하단여백 해상도  1% */
+	}
+/* 	
+	header div#logo{
+		font-family:"헤드라인";							로고 글씨체 설정
+		font-size:30px;									로고 글씨크기
+		font-weight:bold;								글자 두께설정
+		text-shadow: 5px 5px 3px #FFD9EC;				글자 그림자 설정
+	}
+	header div img{
+		vertical-align:bottom;							이미지 정렬 사용	
+	}
+	span#o{
+		font-family:Arial;								
+		color:#ff0000;
+		text-shadow: 3px 3px 5px #000000;
+	}
+	span#n{
+		font-family:Arial;
+		color:#00ff00;
+		text-shadow: 3px 3px 5px #000000;
+	}
+	span#e{
+		font-family:Arial;
+		color:#0000ff;
+		text-shadow: 3px 3px 5px #000000;
+	}
+														로고는 이미지화 해서 사용할 것이나 추후 수정할 수 있으니 주석처리함 */
+	header div#logo{									
+		float:left;										/*헤더박스내 div(#logo) 좌측배치*/
+		padding-left:15%;								/*헤더박스내 div(#logo) 경계선내 좌측여백 해상도 15%*/
+		padding-bottom:1%;								/*헤더박스내 div(#logo) 경계선내 하단여백 해상도 1%*/
+	}
+	header div#topmenu{
+		float:right;									/*헤더박스내 div(#topmenu) 우측배치*/
+		padding-right:15%;								/*헤더박스내 div(#topmenu) 경계선내 우측여백 해상도 15%*/
+		padding-bottom:1%;								/*헤더박스내 div(#topmenu) 경계선내 하단여백 해상도 1%*/
+	}
+	header ul li{
+		display:inline-block;							/*헤더박스내 ul, li 태그 디스플레이 인라인블럭으로 변경*/
+	}
+	.clear{
+		clear:both;
+	}
+	header nav{
+		text-align:center;								/*헤더박스내 nav 텍스트 중앙정렬*/
+		border-top:solid 1px #BDBDBD;					/*헤더박스내 nav 경계선 상단 실선,1px 회색*/
+		padding:1% 15%;									/*헤더박스내 nav 경계선내 상하단 여백 해상도 1% 해상도 좌우측 여백15% */
+	}	
+	header nav ul li{
+		text-align:center;								/*헤더박스내 nav내 ul내 li태그 텍스트 중앙정렬*/
+		background-color:#000000;						/*헤더박스내 nav내 ul내 li태그 배경색 검정색*/
+		color:#ffffff;									/*헤더박스내 nav내 ul내 li태그 글자색 하얀색*/
+		font-size:20px;									/*헤더박스내 nav내 ul내 li태그 글자크기 20px*/
+		border:solid 1px #ffffff;						/*헤더박스내 nav내 ul내 li태그 경계선 실선 1px 흰색*/
+		border-radius:10px;								/*헤더박스내 nav내 ul내 li태그 경계선 모서리 둥글게 상하좌우*/
+		margin-left:5%;									/*헤더박스내 nav내 ul내 li태그 경계선 바깥여백 좌측 해상도 5%*/
+		padding:5px 15px;								/*헤더박스내 nav내 ul내 li태그 경계선내 상하단여백 5px 좌우 15px*/
+	}header nav ul li a:link{
+		text-align:center;								/*헤더박스내 nav내 ul내 li태그 텍스트 중앙정렬*/
+		color:#ffffff;									/*헤더박스내 nav내 ul내 li태그 글자색 하얀색*/
+		text-decoration:none;
+	}header nav ul li a:visited{
+		text-align:center;								/*헤더박스내 nav내 ul내 li태그 텍스트 중앙정렬*/
+		color:#ffffff;									/*헤더박스내 nav내 ul내 li태그 글자색 하얀색*/
+		text-decoration:none;
+	}header nav ul li a:hover{
+		text-align:center;								/*헤더박스내 nav내 ul내 li태그 텍스트 중앙정렬*/
+		color:#ffffff;									/*헤더박스내 nav내 ul내 li태그 글자색 하얀색*/
+		text-decoration:none;
+	}header nav ul li a:active{
+		text-align:center;								/*헤더박스내 nav내 ul내 li태그 텍스트 중앙정렬*/
+		color:#ffffff;									/*헤더박스내 nav내 ul내 li태그 글자색 하얀색*/
+		text-decoration:none;
+	}

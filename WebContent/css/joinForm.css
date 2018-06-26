@@ -1,0 +1,53 @@
+@charset "EUC-KR";
+	* {
+	    margin:0;
+	    padding:0;							/* 전체태그 바깥여백, 경계선 내 여백 0설정*/
+	}
+	ul {
+	    list-style-type:none;				/* ul태그 각 리스트 항목별 타입 none*/
+	}
+	h3 {
+	    margin:20px 0 0 50px;				/* h3태그 바깥여백 상단 20, 좌측 50 설정*/
+	}
+	h6 {
+    	margin:0 0 0 50px;				/* h6태그 바깥여백 좌측 50 설정*/
+    	color:#0000ff;
+    	font-weight:bold;
+	}
+	#submit {
+		text-align:center;
+		display:block;
+	}
+	#mem_form {								/* 아이디 mem_form(폼전체 ul리스트)태그 설정내용 */
+	    width:100%;							/* 넓이 해상도 100% 설정*/
+	    margin:10px 0 0 50px;				/* 바깥여백, 상단 10 좌측 50 설정*/
+	    font-family:"돋움";					/* 글씨체 설정*/
+	    font-size:12px;						/* 글씨 크기 설정*/
+	    color:#444444;						/* 글씨 색상(진한회색)*/
+	    padding-top:5px;					/* 경계선 내 상단 여백 5 설정*/
+	    padding-bottom:10px;				/* 경계선 내 하단 여백 10 설정*/
+	    border-top: solid 1px #cccccc;		/* 경계선 상단 solid(실선) 선굵기 1px 색상#cccccc(연한회색)설정*/
+	    border-bottom: solid 1px #cccccc;	/* 경계선 하단 solid(실선) 선굵기 1px 색상#cccccc(연한회색)설정*/
+	}
+	.cols li {								/* cols(ul태그)클래스 내 li태그 설정내용 */
+	    display:inline-block; 				/* 인라인블록 설정 */
+	    margin-top:5px;						/* 바깥여백, 상단 5 설정 */
+	}
+											/* cols(ul태그)클래스 내 li태그(col1 클래스)설정내용 */
+	.cols li.col1 {							/* cols.li.col1= input 앞 인풋내용 설명 ex)아이디,비밀번호 */
+	    width:100px;						/* 넓이 100px 설정*/
+	    text-align:right;					/* 텍스트 우측정렬 설정*/
+	}
+											/* cols(ul태그)클래스 내 li태그(col2 클래스)설정내용 */
+	.cols li.col2 {							/* cols.li.col2= input 내용 ex)id001,pw001 */
+	    width:350px;						/* 넓이 350px 설정 */
+	}
+	.cols li.col2 input.hp {				/* cols(ul태그)클래스 내 li태그(col2 클래스)input태그(hp클래스)설정내용 */
+	    width:35px;							/* 넓이 35px 설정 */
+	}
+	.cols li.col2 input.birth{				/* cols(ul태그)클래스 내 li태그(col2 클래스)input태그(birth클래스)설정내용 */
+		width:35px;							/* 넓이 35px 설정 */
+	}
+	#required{								
+		color:#ff0000;						/* id required태그 글자색 설정 빨간색 */
+	}
